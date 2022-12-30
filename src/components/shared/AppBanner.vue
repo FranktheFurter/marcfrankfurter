@@ -1,8 +1,12 @@
 <script>
 import feather from 'feather-icons';
+import HeroText from './HeroText.vue';
 
 export default {
 	name: 'Home',
+	components: {
+		HeroText,
+	},
 	data: () => {
 		return {
 			theme: '',
@@ -26,6 +30,8 @@ export default {
 	<section class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10">
 		<!-- Banner left contents -->
 		<div class="w-full md:w-1/3 text-left">
+			<HeroText />
+
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase">
 				Hi, I am Marc Frankfurter
@@ -46,8 +52,9 @@ export default {
 
 		<!-- Banner right illustration -->
 		<div class="w-full md:w-2/3 text-right float-right">
-			<img v-if="theme === 'light'" src="@/assets/images/developer.svg" alt="Developer" />
-			<img v-else src="@/assets/images/developer-dark.svg" alt="Developer" />
+			<!-- <img -if="theme === 'light'" src="@/assets/images/developer.svg" alt="Developer" />
+			<img v-else src="@/assets/images/developer-dark.svg" alt="Developer" /> -->
+			<img src="@/assets/images/me.png" alt="Me" />
 		</div>
 	</section>
 </template>
