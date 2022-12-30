@@ -11,3 +11,4 @@ jobs:
       with:
         username: 'FranktheFurter'
         reponame: 'marcfrankfurter'
+        token: ${{ secrets.GITHUB_TOKEN }}
