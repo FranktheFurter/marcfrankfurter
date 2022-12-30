@@ -81,10 +81,10 @@ export default {
 			<!-- Header menu links and small screen hamburger menu -->
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
-				<div>
-					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/fr-logo.png" class="w-36"
+				<div class="w-11">
+					<router-link to="/"><img v-if="theme === 'light'" src="@/assets/images/fr-logo.png"
 							alt="Dark Logo" />
-						<img v-else src="@/assets/images/fr-logo.png" class="w-36" alt="Light Logo" />
+						<img v-else src="@/assets/images/fr-logo.png" alt="Light Logo" />
 					</router-link>
 				</div>
 
