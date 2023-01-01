@@ -51,10 +51,10 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
+		<!-- Banner right illustration -->
 		<div class="w-full md:w-2/3 text-right float-right">
-			<!-- <img -if="theme === 'light'" src="@/assets/images/developer.svg" alt="Developer" />
-			<img v-else src="@/assets/images/developer-dark.svg" alt="Developer" /> -->
-			<img src="@/assets/images/me.png" alt="Me" />
+			<img v-if="theme === 'light'" src="@/assets/images/hero2.png" alt="Developer" />
+			<img v-else src="@/assets/images/hero3.png" alt="Developer" />
 		</div>
 	</section>
 </template>
