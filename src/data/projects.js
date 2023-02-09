@@ -4,38 +4,38 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Custom ERP System with Blazor Server',
 		category: 'Web Application',
-		img: require('@/assets/images/web-project-2.jpg'),
+		img: require('@/assets/images/erp-hero.png'),
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Warehouse Management System Mobile & Flutter Web ',
 		category: 'Mobile Application',
 		img: require('@/assets/images/mobile-project-2.jpg'),
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Returns / Repair Management System Flutter Web',
+		category: 'Web Application',
 		img: require('@/assets/images/ui-project-1.jpg'),
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
+		title: 'VW Asterix Integration',
 		category: 'UI/UX Design',
 		img: require('@/assets/images/ui-project-2.jpg'),
 	},
 	{
 		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
+		title: 'Porsche Asterix Integration',
+		category: 'UI/UX Design',
 		img: require('@/assets/images/mobile-project-1.jpg'),
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
+		title: 'Vinfast Amazon Alexa Integration',
+		category: 'UI/UX Design',
 		img: require('@/assets/images/web-project-1.jpg'),
 	},
 ];
