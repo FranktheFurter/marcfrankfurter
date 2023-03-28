@@ -23,17 +23,17 @@ export default {
       projectImages: [
         {
           id: 1,
-          title: 'Kabul Project Management UI',
+          title: 'Blazor-ERP',
           img: require('@/assets/images/erp-content-1.png'),
         },
         {
           id: 2,
-          title: 'Kabul Project Management UI',
+          title: 'Blazor-ERP',
           img: require('@/assets/images/erp-content-2.png'),
         },
         {
           id: 3,
-          title: 'Kabul Project Management UI',
+          title: 'Blazor-ERP',
           img: require('@/assets/images/erp-content-3.png'),
         },
       ],
