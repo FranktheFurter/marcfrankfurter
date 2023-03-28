@@ -11,39 +11,47 @@ const projects = [
     },
     {
         id: 2,
+        title: 'Game of Life Flutter',
+        category: 'Private Project',
+        img: require('@/assets/images/game-of-life-flutter.jpg'),
+        route: '/projects/game-of-life-flutter',
+    },
+    {
+        id: 3,
         title: 'Warehouse Management System Mobile & Flutter Web ',
         category: 'Mobile Application',
         img: require('@/assets/images/mobile-project-2.jpg'),
         route: '/projects/test',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Returns / Repair Management System Flutter Web',
         category: 'Web Application',
         img: require('@/assets/images/ui-project-1.jpg'),
         route: '/projects/test',
     },
     {
-        id: 4,
+        id: 5,
         title: 'VW Asterix Integration',
         category: 'UI/UX Design',
         img: require('@/assets/images/ui-project-2.jpg'),
         route: '/projects/test',
     },
     {
-        id: 5,
+        id: 6,
         title: 'Porsche Asterix Integration',
         category: 'UI/UX Design',
         img: require('@/assets/images/mobile-project-1.jpg'),
         route: '/projects/test',
     },
     {
-        id: 6,
+        id: 7,
         title: 'Vinfast Amazon Alexa Integration',
         category: 'UI/UX Design',
         img: require('@/assets/images/web-project-1.jpg'),
         route: '/projects/test',
     },
+
 ];
 
 export default projects;
