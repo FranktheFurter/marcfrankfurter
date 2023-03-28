@@ -7,7 +7,7 @@ export default {
   },
   data: () => {
     return {
-      clientsHeading: 'Some of the brands and Companies I have worked with',
+      clientsHeading: 'Some of the brands and companies I have worked with',
       clients: [
         {
           id: 1,
@@ -46,7 +46,7 @@ export default {
 </script>
 
 <template>
-  <div class="mt-10 sm:mt-20">
+  <div class="mt-10 sm:mt-20 ">
     <p
         class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light"
     >
