@@ -56,7 +56,7 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () =>
             import(
-                /* webpackChunkName: "projects" */ '../views/projects/BlazorERP.vue'
+                 '../views/projects/BlazorERP.vue'
                 ),
         meta: {
             title: 'Marc Frankfurter - Single Project',
@@ -64,13 +64,13 @@ const routes = [
     },
     {
         path: '/projects/game-of-life-flutter',
-        name: 'Blazor ERP',
+        name: 'Flutter Game of Life',
         // route level code-splitting
         // this generates a separate chunk (projects.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
             import(
-                /* webpackChunkName: "projects" */ '../views/projects/FlutterGameOfLife.vue'
+                 '../views/projects/FlutterGameOfLife.vue'
                 ),
         meta: {
             title: 'Marc Frankfurter - Single Project',

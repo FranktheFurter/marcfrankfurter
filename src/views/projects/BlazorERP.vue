@@ -6,7 +6,7 @@ import ProjectInfo from '../../components/projects/ProjectInfo.vue';
 // import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 export default {
-  name: 'Projects',
+  name: 'BlazorERP',
   components: {
     ProjectHeader,
     ProjectGallery,
