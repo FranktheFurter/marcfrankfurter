@@ -35,10 +35,9 @@ export default {
                 :href="info.details"
                 target="_blank"
                 :class="
-								info.title == 'Website' || info.title == 'Phone'
+								info.title === 'Website' || info.title === 'Phone'
 									? 'hover:underline cursor-pointer'
-									: ''
-							"
+									: ''"
                 aria-label="Project Website and Phone"
             >{{ info.details }}</a
             >
