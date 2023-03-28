@@ -3,7 +3,7 @@ import feather from 'feather-icons';
 import ProjectHeader from '../../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../../components/projects/ProjectInfo.vue';
-import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
+// import ProjectRelatedProjects from '../../components/projects/ProjectRelatedProjects.vue';
 
 export default {
   name: 'Projects',
@@ -11,30 +11,30 @@ export default {
     ProjectHeader,
     ProjectGallery,
     ProjectInfo,
-    ProjectRelatedProjects,
+    // ProjectRelatedProjects,
   },
   data: () => {
     return {
       singleProjectHeader: {
         singleProjectTitle: 'Blazor Server ERP-System',
-        singleProjectDate: 'Jul 26, 2021',
+        singleProjectDate: 'Jul 2022 - Now',
         singleProjectTag: 'UI / Frontend',
       },
       projectImages: [
         {
           id: 1,
           title: 'Kabul Project Management UI',
-          img: require('@/assets/images/ui-project-1.jpg'),
+          img: require('@/assets/images/erp-content-1.png'),
         },
         {
           id: 2,
           title: 'Kabul Project Management UI',
-          img: require('@/assets/images/web-project-2.jpg'),
+          img: require('@/assets/images/erp-content-2.png'),
         },
         {
           id: 3,
           title: 'Kabul Project Management UI',
-          img: require('@/assets/images/mobile-project-2.jpg'),
+          img: require('@/assets/images/erp-content-3.png'),
         },
       ],
       projectInfo: {
@@ -43,7 +43,7 @@ export default {
           {
             id: 1,
             title: 'Name',
-            details: 'Company Ltd',
+            details: 'Scheppach GmbH',
           },
           {
             id: 2,
@@ -53,17 +53,12 @@ export default {
           {
             id: 3,
             title: 'Website',
-            details: 'https://company.com',
-          },
-          {
-            id: 4,
-            title: 'Phone',
-            details: '555 8888 888',
+            details: 'https://www.scheppach.com/de',
           },
         ],
         objectivesHeading: 'Objective',
         objectivesDetails:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+            'The previous ERP system MyFactory was to be gradually replaced by a new ERP system developed in-house based on Blazor Server.',
         technologies: [
           {
             title: 'Tools & Technologies',
@@ -71,9 +66,9 @@ export default {
               'HTML',
               'CSS',
               'JavaScript',
-              'Vue.js',
-              'TailwindCSS',
-              'AdobeXD',
+              'Blazor',
+              'C#',
+              'Figma',
             ],
           },
         ],
@@ -82,22 +77,22 @@ export default {
           {
             id: 1,
             details:
-                'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                'Since both the old system MyFactory and the new system are to be operated in parallel, they must be compatible with each other and data must be stored in the same backend.',
           },
           {
             id: 2,
             details:
-                'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                'Users must be able to log in via Active Directory and are assigned various user rights via login',
           },
           {
             id: 3,
             details:
-                'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                'With Blazor and the .Net stack a lot is possible, but to manipulate the DOM directly you have to work with Javascript interop.',
           },
           {
             id: 4,
             details:
-                'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                'Given the large number of possible operations that an ERP system offers, it is very important to integrate these carefully into a UI so that users do not feel overwhelmed by the sheer abundance and the system can be operated intuitively.',
           },
         ],
         socialSharingsHeading: 'Share This',
@@ -183,7 +178,7 @@ export default {
     <ProjectInfo :projectInfo="projectInfo"/>
 
     <!-- Project related projects -->
-    <ProjectRelatedProjects :relatedProject="relatedProject"/>
+    <!--    <ProjectRelatedProjects :relatedProject="relatedProject"/>-->
   </div>
 </template>
 
