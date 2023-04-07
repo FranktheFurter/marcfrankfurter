@@ -87,17 +87,17 @@ const projects = [
       projectImages: [
         {
           id: 1,
-          title: "Blazor-ERP",
+          title: "Flutter Game of Life",
           img: require("@/assets/images/projects/game-of-life-flutter-1.jpg"),
         },
         {
           id: 2,
-          title: "Blazor-ERP",
+          title: "Flutter Game of Life",
           img: require("@/assets/images/projects/game-of-life-flutter-2.jpg"),
         },
         {
           id: 3,
-          title: "Blazor-ERP",
+          title: "Flutter Game of Life",
           img: require("@/assets/images/projects/game-of-life-flutter-3.jpg"),
         },
       ],
@@ -124,11 +124,12 @@ const projects = [
           {
             id: 1,
             details:
-              "I have implemented Game of Life in many languages but I like the Flutter implementation the most. It is very easy to implement and the UI is very responsive. I have also implemented speed slider that allows you to change the speed of the game.",
+              "I have always been fascinated by the Game of Life, a simple cellular automaton with complex emergent behaviors. Over the years, I have implemented it in many programming languages and frameworks, but my favorite implementation is the one I built using Flutter. The Flutter framework provides an intuitive and expressive way to build beautiful and responsive user interfaces, which made implementing the Game of Life a breeze. I also added a speed slider that allows users to adjust the speed of the simulation, making it easier to observe the evolution of the cells.",
           },
           {
             id: 2,
-            details: "You can try it via the link",
+            details:
+              "If you're interested in trying out the Flutter implementation of the Game of Life, you can do so by following the link provided.",
           },
         ],
       },
@@ -209,7 +210,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "HoloDraw - Ba-thesis",
+    title: "HoloDraw - Bachelor's Thesis",
     category: "VR",
     date: "2021",
     img: require("@/assets/images/projects/HoloDraw-hero.png"),
@@ -218,7 +219,7 @@ const projects = [
         {
           id: 1,
           title: "Blazor-ERP",
-          img: require("@/assets/images/projects/HoloDraw-content-1.png"),
+          img: require("@/assets/images/projects/HoloDraw-hero.png"),
         },
         {
           id: 2,
@@ -242,11 +243,11 @@ const projects = [
         ],
         objectivesHeading: "Objective",
         objectivesDetails:
-          "Hardcore Writer is inspired by the Most Dangerous Writing App which is a web application for free writing that combats writer's block by deleting all progress if the user stops typing for five seconds.",
+          "HoloDraw, my Bachelor's thesis, aims to bridge the gap between the freedom of VR drawing and the precision of constrained 2D input, offering a unique solution for artists and designers in a virtual reality environment.",
         technologies: [
           {
             title: "Tools & Technologies",
-            techs: ["Flutter", "Dart"],
+            techs: ["Unity", "C#", "VR", "optitrack", "motion capture"],
           },
         ],
         projectDetailsHeading: "About Project",
@@ -254,32 +255,36 @@ const projects = [
           {
             id: 1,
             details:
-              "Introducing Hardcore Writer, a unique and thrilling writing app inspired by the Most Dangerous Writing App. As a budding developer, I wanted to take up the challenge of creating my own version of this incredible tool to learn Flutter better. Hardcore Writer is my free version of the app, designed to offer the same exciting writing experience with a personalized touch.",
+              "HoloDraw extends VRSketchIn, a VR drawing system, by introducing a dynamic drawing layer that follows the tablet's position and orientation, translating 2D input to 3D space in VR.",
           },
+
           {
             id: 2,
             details:
-              "With Hardcore Writer, you can unleash your creativity and let your thoughts flow freely without the fear of losing your work. The app allows you to set your writing session with two customizable features - interval time and session length. The interval time is the duration between your last keystroke and when your text gets deleted, while the session length is the overall duration of your writing session. You can choose the values for both these features according to your preference.",
+              "The project aims to bridge the gap between the freedom of VR drawing and the precision of constrained 2D input, offering a unique solution for artists and designers.",
           },
+
           {
             id: 3,
             details:
-              "The app interface is user-friendly, with the timer displayed on the top right corner of the screen. You can keep track of the time remaining for your session and the time left before your text gets deleted. This feature adds an extra layer of excitement to your writing, making every moment count and encouraging you to keep writing.",
+              "An analysis of existing VR drawing systems revealed a compromise between freedom and precision, which HoloDraw addresses by combining mid-air drawing and constrained 2D input.",
           },
+
           {
             id: 4,
             details:
-              "Hardcore Writer is perfect for writers, bloggers, and anyone looking to hone their writing skills while having fun. Whether you're a beginner or a seasoned writer, this app offers a unique writing experience that will keep you engaged and motivated.",
+              "The concept of a dynamic drawing layer has been explored in other design systems, and HoloDraw adapts this concept to a VR drawing context.",
           },
+
           {
             id: 5,
             details:
-              "So, what are you waiting for? Try Hardcore Writer now with the link of the left side and take the first step towards improving your writing skills.",
+              "The development process of HoloDraw includes analyzing existing systems, deriving the concept, implementation, and evaluation to create a seamless and precise drawing experience in VR.",
           },
         ],
       },
     },
   },
-]
+];
 
-export default projects
+export default projects;
