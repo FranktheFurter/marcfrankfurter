@@ -28,41 +28,15 @@ const routes = [
       title: "Marc Frankfurter - Projects",
     },
   },
+  //catch all route for projects
   {
-    path: "/projects/single-project",
-    name: "Single Project",
-
+    path: "/project/:id",
+    name: "Project",
     component: () => import("../views/SingleProject.vue"),
     meta: {
       title: "Marc Frankfurter - Single Project",
     },
-  },
-  {
-    path: "/projects/single-project2",
-    name: "Single Project2",
-
-    component: () => import("../views/SingleProject2.vue"),
-    meta: {
-      title: "Marc Frankfurter - Single Project",
-    },
-  },
-  {
-    path: "/projects/blazor-erp",
-    name: "Blazor ERP",
-
-    component: () => import("../views/projects/BlazorERP.vue"),
-    meta: {
-      title: "Marc Frankfurter - Single Project",
-    },
-  },
-  {
-    path: "/projects/game-of-life-flutter",
-    name: "Flutter Game of Life",
-
-    component: () => import("../views/projects/FlutterGameOfLife.vue"),
-    meta: {
-      title: "Marc Frankfurter - Single Project",
-    },
+    props: true,
   },
   {
     path: "/contact",

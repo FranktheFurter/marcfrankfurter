@@ -1,16 +1,16 @@
 <script>
-import feather from 'feather-icons';
+import feather from "feather-icons"
 
 export default {
-  props: ['projectInfo'],
+  props: ["projectInfo"],
 
   mounted() {
-    feather.replace();
+    feather.replace()
   },
   updated() {
-    feather.replace();
+    feather.replace()
   },
-};
+}
 </script>
 
 <template>
@@ -20,26 +20,27 @@ export default {
       <!-- Single project client details -->
       <div class="mb-7">
         <p
-            class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
+          class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
         >
           {{ projectInfo.clientHeading }}
         </p>
         <ul class="leading-loose">
           <li
-              v-for="info in projectInfo.companyInfos"
-              :key="info"
-              class="font-general-regular text-ternary-dark dark:text-ternary-light"
+            v-for="info in projectInfo.companyInfos"
+            :key="info"
+            class="font-general-regular text-ternary-dark dark:text-ternary-light"
           >
             <span>{{ info.title }}: </span>
             <a
-                :href="info.details"
-                target="_blank"
-                :class="
-								info.title === 'Website' || info.title === 'Phone'
-									? 'hover:underline cursor-pointer'
-									: ''"
-                aria-label="Project Website and Phone"
-            >{{ info.details }}</a
+              :href="info.details"
+              target="_blank"
+              :class="
+                info.title === 'Website' || info.title === 'Phone'
+                  ? 'hover:underline cursor-pointer'
+                  : ''
+              "
+              aria-label="Project Website and Phone"
+              >{{ info.details }}</a
             >
           </li>
         </ul>
@@ -48,12 +49,12 @@ export default {
       <!-- Single project objectives -->
       <div class="mb-7">
         <p
-            class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
+          class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
         >
           {{ projectInfo.objectivesHeading }}
         </p>
         <p
-            class="font-general-regular text-primary-dark dark:text-ternary-light"
+          class="font-general-regular text-primary-dark dark:text-ternary-light"
         >
           {{ projectInfo.objectivesDetails }}
         </p>
@@ -62,52 +63,29 @@ export default {
       <!-- Single project technologies -->
       <div class="mb-7">
         <p
-            class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
+          class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
         >
           {{ projectInfo.technologies[0].title }}
         </p>
         <p
-            class="font-general-regular text-primary-dark dark:text-ternary-light"
+          class="font-general-regular text-primary-dark dark:text-ternary-light"
         >
-          {{ projectInfo.technologies[0].techs.join(', ') }}
+          {{ projectInfo.technologies[0].techs.join(", ") }}
         </p>
       </div>
-
-      <!-- Single project social sharing -->
-      <!--			<div>-->
-      <!--				<p-->
-      <!--					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"-->
-      <!--				>-->
-      <!--					{{ projectInfo.socialSharingsHeading }}-->
-      <!--				</p>-->
-      <!--				<div class="flex items-center gap-3 mt-5">-->
-      <!--					<a-->
-      <!--						v-for="social in projectInfo.socialSharings"-->
-      <!--						:key="social.id"-->
-      <!--						:href="social.url"-->
-      <!--						target="__blank"-->
-      <!--						aria-label="Share Project"-->
-      <!--						class="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"-->
-      <!--						><i-->
-      <!--							:data-feather="social.icon"-->
-      <!--							class="w-4 lg:w-5 h-4 lg:h-5"-->
-      <!--						></i-->
-      <!--					></a>-->
-      <!--				</div>-->
-      <!--			</div>-->
     </div>
 
     <!-- Single project right section details -->
     <div class="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
       <p
-          class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
+        class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
       >
         {{ projectInfo.projectDetailsHeading }}
       </p>
       <p
-          v-for="projectDetail in projectInfo.projectDetails"
-          :key="projectDetail.id"
-          class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+        v-for="projectDetail in projectInfo.projectDetails"
+        :key="projectDetail.id"
+        class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
       >
         {{ projectDetail.details }}
       </p>
