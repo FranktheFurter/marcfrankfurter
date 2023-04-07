@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmarc_frankfurter_portfolio"]=self["webpackChunkmarc_frankfurter_portfolio"]||[]).push([[773],{3773:function(r,n,t){t.r(n),t.d(n,{default:function(){return i}});var e=t(6252),o={class:"container mx-auto"};function a(r,n,t,a,c,u){var f=(0,e.up)("ProjectsGrid");return(0,e.wg)(),(0,e.iD)("div",o,[(0,e.Wm)(f)])}var c=t(2521),u={name:"Projects",components:{ProjectsGrid:c.Z}},f=t(3744);const s=(0,f.Z)(u,[["render",a]]);var i=s}}]);
+//# sourceMappingURL=773-legacy.3efe71e0.js.map
