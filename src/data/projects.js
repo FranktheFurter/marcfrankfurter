@@ -134,6 +134,152 @@ const projects = [
       },
     },
   },
+  {
+    id: 3,
+    title: "Hardcore Writer",
+    category: "Private Project",
+    date: "2022",
+    img: require("@/assets/images/projects/hardcore-writer-1.png"),
+    projectData: {
+      projectImages: [
+        {
+          id: 1,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/hardcore-writer-1.png"),
+        },
+        {
+          id: 2,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/hardcore-writer-2.png"),
+        },
+        {
+          id: 3,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/hardcore-writer-3.png"),
+        },
+      ],
+      projectInfo: {
+        clientHeading: "About",
+        companyInfos: [
+          {
+            id: 1,
+            title: "Website",
+            details: "https://frankthefurter.github.io/hardcore_writer/#/",
+          },
+        ],
+        objectivesHeading: "Objective",
+        objectivesDetails:
+          "Hardcore Writer is inspired by the Most Dangerous Writing App which is a web application for free writing that combats writer's block by deleting all progress if the user stops typing for five seconds.",
+        technologies: [
+          {
+            title: "Tools & Technologies",
+            techs: ["Flutter", "Dart"],
+          },
+        ],
+        projectDetailsHeading: "About Project",
+        projectDetails: [
+          {
+            id: 1,
+            details:
+              "Introducing Hardcore Writer, a unique and thrilling writing app inspired by the Most Dangerous Writing App. As a budding developer, I wanted to take up the challenge of creating my own version of this incredible tool to learn Flutter better. Hardcore Writer is my free version of the app, designed to offer the same exciting writing experience with a personalized touch.",
+          },
+          {
+            id: 2,
+            details:
+              "With Hardcore Writer, you can unleash your creativity and let your thoughts flow freely without the fear of losing your work. The app allows you to set your writing session with two customizable features - interval time and session length. The interval time is the duration between your last keystroke and when your text gets deleted, while the session length is the overall duration of your writing session. You can choose the values for both these features according to your preference.",
+          },
+          {
+            id: 3,
+            details:
+              "The app interface is user-friendly, with the timer displayed on the top right corner of the screen. You can keep track of the time remaining for your session and the time left before your text gets deleted. This feature adds an extra layer of excitement to your writing, making every moment count and encouraging you to keep writing.",
+          },
+          {
+            id: 4,
+            details:
+              "Hardcore Writer is perfect for writers, bloggers, and anyone looking to hone their writing skills while having fun. Whether you're a beginner or a seasoned writer, this app offers a unique writing experience that will keep you engaged and motivated.",
+          },
+          {
+            id: 5,
+            details:
+              "So, what are you waiting for? Try Hardcore Writer now with the link of the left side and take the first step towards improving your writing skills.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 4,
+    title: "HoloDraw - Ba-thesis",
+    category: "VR",
+    date: "2021",
+    img: require("@/assets/images/projects/HoloDraw-hero.png"),
+    projectData: {
+      projectImages: [
+        {
+          id: 1,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/HoloDraw-content-1.png"),
+        },
+        {
+          id: 2,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/HoloDraw-content-2.png"),
+        },
+        {
+          id: 3,
+          title: "Blazor-ERP",
+          img: require("@/assets/images/projects/HoloDraw-content-3.png"),
+        },
+      ],
+      projectInfo: {
+        clientHeading: "About",
+        companyInfos: [
+          {
+            id: 1,
+            title: "Website",
+            details: "https://frankthefurter.github.io/hardcore_writer/#/",
+          },
+        ],
+        objectivesHeading: "Objective",
+        objectivesDetails:
+          "Hardcore Writer is inspired by the Most Dangerous Writing App which is a web application for free writing that combats writer's block by deleting all progress if the user stops typing for five seconds.",
+        technologies: [
+          {
+            title: "Tools & Technologies",
+            techs: ["Flutter", "Dart"],
+          },
+        ],
+        projectDetailsHeading: "About Project",
+        projectDetails: [
+          {
+            id: 1,
+            details:
+              "Introducing Hardcore Writer, a unique and thrilling writing app inspired by the Most Dangerous Writing App. As a budding developer, I wanted to take up the challenge of creating my own version of this incredible tool to learn Flutter better. Hardcore Writer is my free version of the app, designed to offer the same exciting writing experience with a personalized touch.",
+          },
+          {
+            id: 2,
+            details:
+              "With Hardcore Writer, you can unleash your creativity and let your thoughts flow freely without the fear of losing your work. The app allows you to set your writing session with two customizable features - interval time and session length. The interval time is the duration between your last keystroke and when your text gets deleted, while the session length is the overall duration of your writing session. You can choose the values for both these features according to your preference.",
+          },
+          {
+            id: 3,
+            details:
+              "The app interface is user-friendly, with the timer displayed on the top right corner of the screen. You can keep track of the time remaining for your session and the time left before your text gets deleted. This feature adds an extra layer of excitement to your writing, making every moment count and encouraging you to keep writing.",
+          },
+          {
+            id: 4,
+            details:
+              "Hardcore Writer is perfect for writers, bloggers, and anyone looking to hone their writing skills while having fun. Whether you're a beginner or a seasoned writer, this app offers a unique writing experience that will keep you engaged and motivated.",
+          },
+          {
+            id: 5,
+            details:
+              "So, what are you waiting for? Try Hardcore Writer now with the link of the left side and take the first step towards improving your writing skills.",
+          },
+        ],
+      },
+    },
+  },
 ]
 
 export default projects
