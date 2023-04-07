@@ -1,10 +1,10 @@
 <script>
-import feather from "feather-icons"
-import ProjectHeader from "../components/projects/ProjectHeader.vue"
-import ProjectGallery from "../components/projects/ProjectGallery.vue"
-import ProjectInfo from "../components/projects/ProjectInfo.vue"
-import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects.vue"
-import projects from "../data/projects"
+import feather from "feather-icons";
+import ProjectHeader from "../components/projects/ProjectHeader.vue";
+import ProjectGallery from "../components/projects/ProjectGallery.vue";
+import ProjectInfo from "../components/projects/ProjectInfo.vue";
+import ProjectRelatedProjects from "../components/projects/ProjectRelatedProjects.vue";
+import projects from "../data/projects";
 
 export default {
   name: "Projects",
@@ -17,18 +17,20 @@ export default {
   data: () => {
     return {
       project: null,
-    }
+    };
   },
-  async created() {
-    const projectId = parseInt(this.$route.params.id)
-    this.project = projects.find((project) => project.id === projectId)
-    feather.replace()
-  },
-  updated() {
-    feather.replace()
+  watch: {
+    "$route.params.id": {
+      immediate: true,
+      handler(newId) {
+        const projectId = parseInt(newId);
+        this.project = projects.find((project) => project.id === projectId);
+        feather.replace();
+      },
+    },
   },
   methods: {},
-}
+};
 </script>
 
 <template>
@@ -55,8 +57,8 @@ export default {
 
     <!-- Project related projects -->
     <ProjectRelatedProjects
-      v-if="project.projectData.relatedProject"
-      :relatedProject="project.projectData.relatedProject"
+      :category="project.category"
+      :parentId="project.id"
     />
   </div>
 </template>
