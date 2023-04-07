@@ -115,7 +115,7 @@ const projects = [
         ],
         objectivesHeading: "Objective",
         objectivesDetails:
-          'TGame of Life is my "Goto-Project" to learn a new programming language or framework',
+          'Game of Life is my "Goto-Project" to learn a new programming language or framework',
         technologies: [
           {
             title: "Tools & Technologies",
