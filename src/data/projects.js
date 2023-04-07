@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Custom ERP System with Blazor Server",
     category: "Web Application",
-    date: "Jul 2022 - Now",
+    date: "Jul 2023",
     img: require("@/assets/images/projects/erp-hero.png"),
     projectData: {
       projectImages: [
@@ -280,6 +280,88 @@ const projects = [
             id: 5,
             details:
               "The development process of HoloDraw includes analyzing existing systems, deriving the concept, implementation, and evaluation to create a seamless and precise drawing experience in VR.",
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 5,
+    title: "Neoblo - Warehouse Management System with Flutter",
+    category: "Mobile Application",
+    date: "2022",
+    img: require("@/assets/images/projects/Neoblo-content-1.png"),
+    projectData: {
+      projectImages: [
+        {
+          id: 1,
+          title: "Neoblo",
+          img: require("@/assets/images/projects/Neoblo-content-1.png"),
+        },
+        {
+          id: 2,
+          title: "Neoblo",
+          img: require("@/assets/images/projects/Neoblo-content-2.png"),
+        },
+        {
+          id: 3,
+          title: "Neoblo",
+          img: require("@/assets/images/projects/Neoblo-content-3.png"),
+        },
+      ],
+      projectInfo: {
+        clientHeading: "About Client",
+        companyInfos: [
+          {
+            id: 1,
+            title: "Name",
+            details: "Scheppach GmbH",
+          },
+          {
+            id: 2,
+            title: "Services",
+            details: "UI Design & Frontend Development",
+          },
+          {
+            id: 3,
+            title: "Website",
+            details: "https://www.scheppach.com/de",
+          },
+        ],
+        objectivesHeading: "Objective",
+        objectivesDetails:
+          "The objective of this project was to replace an unstable warehouse management system with a new and efficient system that met all client requirements, using Flutter as the perfect cross-platform framework and MobX for state management.",
+        technologies: [
+          {
+            title: "Tools & Technologies",
+            techs: ["Flutter", "Dart", "Rest API", ".Net Backend"],
+          },
+        ],
+        projectDetailsHeading: "About Project",
+        projectDetails: [
+          {
+            id: 1,
+            details:
+              "Replaced the old warehouse management system with a new one, as the old one was unstable.",
+          },
+          {
+            id: 2,
+            details:
+              "Flutter was chosen due to its good performance on low-end Android scanners and its ability to be used by a few on web browsers, making it the perfect cross-platform framework.",
+          },
+          {
+            id: 3,
+            details: "Used MobX for state management to ensure stability.",
+          },
+          {
+            id: 4,
+            details:
+              "The project was a success, as the old system was replaced with a new one that was more stable, efficient and user-friendly.",
+          },
+          {
+            id: 5,
+            details:
+              "The decision to use Flutter and MobX proved to be the right one, and the end result was a system that met all of the client's requirements and expectations.",
           },
         ],
       },
